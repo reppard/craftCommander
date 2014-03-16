@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="craftCommander:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/craftCommander_jar</output-path>
+    <root id="archive" name="craftCommander.jar">
+      <element id="module-output" name="craftCommander" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/bukkit-1.7.2-R0.4-20140216.011848-2.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
